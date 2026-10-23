@@ -1,0 +1,12 @@
+# herramientas locales
+.codex/
+.cursor/
+.gemini/
+.grok/
+.DS_Store
+
+# impeccable (herramienta de diseño, solo local)
+.impeccable/
+
+# descargas originales del Google Sites (la web usa las versiones en img/)
+img/original/
