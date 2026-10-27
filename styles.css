@@ -726,6 +726,47 @@ mark {
 }
 .conocenos__ilus { width: 86%; justify-self: end; }
 
+/* Comentarios: notas pegadas con cinta */
+
+.notas {
+  margin: calc(var(--c) * 2.5) 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: calc(var(--c) * 2) var(--c);
+  align-items: start;
+}
+.notas li:nth-child(even) { margin-top: calc(var(--c) * 2); }
+.nota {
+  padding: 28px 20px 20px;
+  background: #f6f4ff;
+  border-radius: 4px 12px 12px 12px;
+}
+.nota blockquote { margin: 0; }
+.nota p {
+  margin: 0;
+  font-family: var(--f-mano);
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: var(--texto);
+}
+.nota figcaption {
+  margin-top: 16px;
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-align: right;
+}
+.nota figcaption::before { content: "— "; }
+
+@media (max-width: 1100px) {
+  .notas { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 600px) {
+  .notas { grid-template-columns: 1fr; }
+  .notas li:nth-child(even) { margin-top: 0; }
+}
+
 /* Contacto */
 
 .contacto { padding-bottom: calc(var(--c) * 6); }

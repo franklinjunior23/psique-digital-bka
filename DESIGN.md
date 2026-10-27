@@ -308,6 +308,11 @@ Cada componente hereda una frase de carácter: el banner respira y reacciona; el
 - **Contenido:** una cita manuscrita en blanco, rotada -2° ("Un espacio digital para cuidar tu bienestar emocional"), y un sticker circular con la ilustración de manos.
 - **Sin nombre:** la tapa no lleva etiqueta de nombre ni de curso; la marca vive en el banner.
 
+### Notas de comentarios
+- **Style:** fotos pegadas (`.pegado`) en versión nota: fondo Papel Tinta (#f6f4ff), radio 4px 12px 12px 12px, cinta lila y giro de ±2°.
+- **Text:** el comentario en Kalam 1.25rem en Tinta Negra Azulada; el nombre en Kalam 700, Lapicero Azul, alineado a la derecha.
+- **Layout:** 4 columnas con las pares bajadas 48px; 2 columnas bajo 1100px y 1 bajo 600px.
+
 ### Inputs / Fields
 El sitio no tiene campos de texto. Los únicos controles de entrada son las casillas de lapicero, descritas arriba.
 
@@ -338,4 +343,4 @@ El sitio no tiene campos de texto. Los únicos controles de entrada son las casi
 - **Don't** usar fuentes de sistema como display o titulares; el sistema sólo es respaldo.
 - **Don't** añadir etiquetas kicker o eyebrow en mayúsculas espaciadas encima de los titulares.
 - **Don't** usar Kalam como fuente de titulares, navegación o botones; la fuente manuscrita es para anotaciones y la tagline.
-- **Don't** introducir testimonios, cifras, credenciales o precios en la página. Mientras no existan, el contenido se mantiene honesto.
+- **Don't** inventar cifras, credenciales o precios. Los comentarios de la sección "Lo que nos escriben" son de ejemplo y deben reemplazarse por testimonios reales, con permiso de cada persona, antes de publicar.
